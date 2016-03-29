@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body { background-color: #777; padding: 0; margin: 0; }
+
+.header_wrap { width: 100%; height: 100px; background-color: #fff; position: fixed; top: 0; left: 0; z-index: 1000; }
+header { position: relative; }
+
+.logo_wrap { width: 100px; height: 100px; background-color: blue; display: inline-block; }
+
+ul { padding: 0; margin: 0; }
+
+.main_nav { display: inline-block; vertical-align: top; margin-top: 35px; position: absolute; right: 135px; }
+
+li { list-style: none; display: inline-block;  margin-left: 35px; }
+
+.page_body { position: absolute; padding-top: 100px; background-color: #fff; min-height: 900px; z-index: 100; width: 100%; }
+
+.image_wrap img { width: 100%; }
+
+.hero_wrap { position: relative; width: 100%; }
+
+.image_wrap { position: absolute; left: 0; top: 0; }
+.text_wrap { position: absolute; color: white; text-align: center; left: 35%; top: 100px; }
+
+</style>
+
+</head>
+<body>
+<div class="page_wrap">
+	<div class="header_wrap">
+	  <header>
+		<div class="logo_wrap"></div>
+		<nav class="main_nav"><ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul></nav><!-- .main_nav - -->
+	</header>
+	</div><!-- .header_wrap - -->
+	<div class="page_body">
+		<div class="hero_wrap">
+		  <div class="image_wrap">
+			<img src="http://thinkful-ed.github.io/karma-clone/img/first-background.jpg" />
+		  </div><!-- .image_wrap - -->
+		  <div class="text_wrap">
+		  	<p class="hero_title">Introducing Karma</p>
+		  	<p>Bring WiFi with you, everywhere you go.</p>
+		  </div><!-- .text_wrap - -->
+	   </div><!-- .hero_wrap - -->
+
+	   <style>
+	   .page_bottom {  width: 100%; height: 600px; margin-top: 750px; }
+	   .bottom_title { text-align: center; font-size: 32px; }
+
+	   .things_wrap { width: 1000px; margin: 0 auto; }
+
+	   .thing { display: inline-block;  width: 250px; height: 150px; text-align: center; margin-left: 75px; font-size: 24px; }
+
+	   </style>
+
+	   <div class="page_bottom">
+	   	<p class="bottom_title">Everyone needs a little Karma.</p>
+	   	<div class="things_wrap">
+
+	   		<div class="thing">
+	   			<img src="http://thinkful-ed.github.io/karma-clone/img/icon-devices.svg">
+	   			Internet for all devices
+	   		</div>
+
+	   		<div class="thing">
+	   			<img src="http://thinkful-ed.github.io/karma-clone/img/icon-coffee.svg">
+	   			Boost your productivity
+	   		</div>
+
+	   		<div class="thing">
+	   			<img src="http://thinkful-ed.github.io/karma-clone/img/icon-refill.svg">
+	   			Pay as You Go
+	   		</div>
+
+	   	</div><!-- .things_wrap - -->
+
+	   	<hr />
+
+	   </div><!-- .page_bottom - -->
+
+	</div><!-- .page_body - -->
+
+</div><!-- .page_wrap - -->
+</body>
+</html>

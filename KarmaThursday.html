@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<link href='//fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+<style>
+
+body { background-color: #777; padding: 0; margin: 0; font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased; }
+
+.header_wrap { position: fixed; left: 0; right: 0; top: 0; }
+header { background-color: rgba(255,255,255,1); height: 100px; }
+
+.logo_wrap { width: 100px; height: 100px; background-color: blue; display: inline-block; margin-left: 35px; }
+
+.main_nav { display: inline-block; vertical-align: top; float: right; margin-right: 45px; margin-top: 35px; }
+
+li { list-style: none; display: inline-block; margin-left: 35px; }
+
+ul { padding: 0; margin: 0; }
+
+.hero_wrap { margin-top: 100px; position: relative; }
+
+.image_wrap { position: absolute; left: 0; top: 0; }
+.image_wrap img { width: 100%; }
+
+.text_wrap { position: absolute; left: 0; right: 0; margin-top: 10%; }
+
+.text_wrap p { text-align: center; color: white; }
+
+
+.header_wrap { z-index: 1000; }
+
+.hero_wrap { z-index: 10; letter-spacing: .09em; line-height: 5px; font-size: 28px; }
+.hero_title { font-size: 48px; line-height: 10px; }
+
+
+</style>
+
+</head>
+<body>
+  <div class="page_wrap">
+  	<div class="header_wrap">
+  	  <header>
+  	  	<div class="logo_wrap"></div>
+  	  	<nav class="main_nav"><ul>
+  	  		<li>1</li>
+  	  		<li>1</li>
+  	  		<li>1</li>
+  	  		<li>1</li>
+  	  		<li>1</li>
+  	  	</ul></nav>
+      </header>
+    </div><!-- .header_wrap - -->
+
+    <div class="hero_wrap">
+
+      <div class="image_wrap">
+      	<img src="http://thinkful-ed.github.io/karma-clone/img/first-background.jpg" />
+      </div><!-- .image_wrap - -->
+
+      <div class="text_wrap">
+      	<p class="hero_title">Introducing Karma</p>
+      	<p>Bring WiFi with you, everywhere you go.</p>
+      </div><!-- .text_wrap - -->
+
+    </div><!-- .hero_wrap - -->
+
+
+
+  </div><!-- .page_wrap - -->
+</body>
+</html>
